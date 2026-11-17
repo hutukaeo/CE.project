@@ -1,4 +1,9 @@
-const dis=document.querySelector("fa-brands fa-discord")
-dis.addEventListener('click', ()=>{
-    
-})
+const uk = document.getElementById("btn");
+
+uk.addEventListener("mouseenter", () => {
+  uk.textContent = "Yes";
+});
+
+uk.addEventListener("mouseleave", () => {
+  uk.textContent = "Want to know more about me?";
+});
